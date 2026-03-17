@@ -1,6 +1,6 @@
 # Functional Risk Evaluation Engine
 
-A small OCaml project that models trade compliance decisions using typed records, pure scoring functions, and explainable rule evaluation.
+A functional risk evaluation engine that models trade compliance decisions using typed records, pure scoring functions, and explainable rule evaluation.
 
 ---
 
