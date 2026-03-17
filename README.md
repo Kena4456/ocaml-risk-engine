@@ -24,6 +24,18 @@ It also supports hard-block overrides for explicitly sanctioned cases.
 
 ---
 
+## Architecture
+
+The engine is structured in three layers:
+
+1. **Domain Layer** – strongly typed trade and decision models  
+2. **Scoring Layer** – pure risk evaluation logic  
+3. **Execution Layer** – command-line interface and scenario runner  
+
+This separation keeps business rules deterministic and independent from I/O.
+
+---
+
 ## Why OCaml
 
 I built this project in OCaml to explore how functional programming can improve correctness in decision systems.
