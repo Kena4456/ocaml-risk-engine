@@ -1,7 +1,4 @@
-type decision =
-  | Approve
-  | Review
-  | Block
+type decision = Approve | Review | Block
 
 type trade = {
   exporter_name : string;
@@ -12,8 +9,4 @@ type trade = {
   sanctioned_country : bool;
 }
 
-type evaluation = {
-  score : int;
-  decision : decision;
-  reasons : string list;
-}
+type evaluation = { score : int; decision : decision; reasons : string list }

@@ -1,3 +1,4 @@
 (executable
+ (public_name risk_engine)
  (name main)
  (libraries risk_engine))
